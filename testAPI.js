@@ -24,7 +24,9 @@ app.post('/users',(req, res) => {
 app.get('/users',(req, res) =>{
     let users = [
        {id: 1, name: 'Admin'},
-       {id: 2, name: 'Khawaja'}
+       {id: 2, name: 'Khawaja'},
+       {id: 3, name: 'Yahya'},
+       {id: 4, name: 'MO'},
     ];
     console.log('Getting all users: ', users);
     res.send(users);
